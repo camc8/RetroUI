@@ -2,7 +2,7 @@
 
 A UI kit based on design styles from the late 90's. This is a work in progress, and will be updated periodically.
 
-![Screenshot](screenshot.png)
+![Screenshot](/src/assets/screenshot.png)
 
 Currently, the following components are available
 
