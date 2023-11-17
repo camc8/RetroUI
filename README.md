@@ -2,6 +2,8 @@
 
 A UI kit based on design styles from the late 90's. This is a work in progress, and will be updated periodically.
 
+![Screenshot](screenshot.png)
+
 Currently, the following components are available
 
 - [Alert](https://github.com/camc8/RetroUI/blob/main/src/components/Alert.tsx)
@@ -12,4 +14,4 @@ Currently, the following components are available
 
 ## Contributing
 
-If you would like to add to this product, please submit a pull request. Make sure your added components use Typescript and Tailwind.
+If you would like to add to this product, please submit a pull request. Make sure your added components use Typescript and Tailwind, and inline SVG or Base64 icons if necessary.
