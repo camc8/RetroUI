@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
+import type { ComponentPropsWithoutRef } from "react";
 
-interface Props {
+interface Props extends ComponentPropsWithoutRef<"div"> {
   children?: ReactNode;
 }
 function Taskbar({ ...props }: Props) {
