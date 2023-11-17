@@ -1,27 +1,15 @@
-# React + TypeScript + Vite
+# RetroUI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A UI kit based on design styles from the late 90's. This is a work in progress, and will be updated periodically.
 
-Currently, two official plugins are available:
+Currently, the following components are available
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Alert](https://github.com/camc8/RetroUI/blob/main/src/components/Alert.tsx)
+- [Button](https://github.com/camc8/RetroUI/blob/main/src/components/Button.tsx)
+- [Card](https://github.com/camc8/RetroUI/blob/main/src/components/Card.tsx)
+- [Input](https://github.com/camc8/RetroUI/blob/main/src/components/Input.tsx)
+- [Taskbar](https://github.com/camc8/RetroUI/blob/main/src/components/Taskbar.tsx)
 
-## Expanding the ESLint configuration
+## Contributing
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+If you would like to add to this product, please submit a pull request. Make sure your added components use Typescript and Tailwind.
