@@ -6,9 +6,9 @@ interface Props extends ComponentPropsWithoutRef<"div"> {
 }
 function Taskbar({ ...props }: Props) {
   return (
-    <div className="fixed top-0 right-0 bg-black w-screen">
+    <div className="fixed top-0 right-0 bg-black w-screen z-50">
       <div
-        className="border-b-zinc-500 border-x-0 border-t-0 border-2 bg-zinc-200 text-xl rounded-sm flex px-5 rounded-t-lg"
+        className="border-b-zinc-500 border-x-0 border-t-0 border-2 bg-zinc-200 text-xl rounded-sm flex px-5"
         {...props}>
         <div className="group relative px-2 hover:bg-zinc-300 cursor-pointer">
           File
